@@ -9,9 +9,9 @@ const writeFileAsync = util.promisify(fs.writeFile);
 // array of questions for user
 const questions = [
   {
-      type = "input",
-      name = "title",
-      massage = "What is the Title of your application ?"
+      type : "input",
+      name : "title",
+      message : "What is the Title of your application ?"
   },  
   {
     type: "input",
@@ -83,6 +83,8 @@ const questions = [
   }
 ];
 
+
+
 inquirer.prompt(questions).then(function (data) {
   writeToFile("README.md", generateMarkdown(data));
 
@@ -98,7 +100,7 @@ function writeToFile(fileName, data) {
 
   fs.writeFile(fileName, data, function (err) {
     if (err) return console.log(err);
-    console.log(`Successfully created a ReadMe!`);
+    console.log(`Successfully created ReadMe`);
   });
 
 }  
