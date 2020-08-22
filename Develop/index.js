@@ -47,7 +47,7 @@ const questions = [
       'Apache',
       'GPL v3'
     ],
-    default: 'MIT'
+   
   },
   {
     type: "input",
@@ -86,7 +86,7 @@ inquirer.prompt(questions).then(function (data) {
   writeToFile("README.md", generateMarkdown(data));
 
   generateMarkdown(data);
-  console.log(`Thanks ${data.name}, your file is being created.`);
+  console.log(`Thanks ${data.name}, ReadMe is being created.`);
 
 }, function (err) {
   console.log(err);
@@ -97,7 +97,7 @@ function writeToFile(fileName, data) {
 
   fs.writeFile(fileName, data, function (err) {
     if (err) return console.log(err);
-    console.log(`Your file has been created successfully!`);
+    console.log(`ReadMe created successfully!`);
   });
 
 }  
