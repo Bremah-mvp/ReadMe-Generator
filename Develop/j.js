@@ -1,46 +1,43 @@
-
 const inquirer = require("inquirer");
-const generateMarkdown = require ("./utils/generateMarkdown");
-const fs = require("fs");
-
-
+const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require('fs');
 
 // array of questions for user
 const questions = [
   {
-      type = "input",
-      name = "title",
-      massage = "What is the Title of your application ?"
-  },  
+    type: "input",
+    name: "title",
+    message: "What is the title of your app?"
+  },
   {
     type: "input",
     name: "deployedURL",
-    message: "Provide the URL for your deployed application."
+    message: "Provide the URL for your deployed app."
   },
   {
     type: "input",
     name: "screenShot",
-    message: "Provide the URL for a screenshot of you application."
+    message: "Provide the URL for a screenshot of you app."
   },
   {
     type: "input",
     name: "description",
-    message: "Please provide a description of your application?"
+    message: "Please provide a description of your app?"
   },
   {
     type: "input",
     name: "installation",
-    message: "Please provide installation instructions for your application?",
+    message: "Please provide installation instructions for your app?",
     default: "npm install"
   },
   {
     type: "input",
     name: "usage",
-    message: "Please provide any use instructions for your application?"
+    message: "Please provide any use instructions for your app?"
   },
   {
     type: 'list',
-    message: "Which license will your application be published under?",
+    message: "Which license will your app be published under?",
     name: 'license',
     choices: [
       'MIT',
@@ -52,7 +49,7 @@ const questions = [
   {
     type: "input",
     name: "contribute",
-    message: "How can people contribute to the application?",
+    message: "How can people contribute to the app?",
   },
   {
     type: "input",
