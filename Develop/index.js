@@ -12,7 +12,22 @@ const questions = [
       type : "input",
       name : "title",
       message : "What is the Title of your application ?"
-  },  
+  }, 
+  {
+    type: "input",
+    name: "name",
+    message: "Please enter your full name.",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "please enter your email address.",
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "What is your GutHub username?"
+  }, 
   {
     type: "input",
     name: "deployedURL",
@@ -53,7 +68,7 @@ const questions = [
   {
     type: "input",
     name: "contribute",
-    message: "How can people contribute to the application?",
+    message: "How can people add to the application?",
   },
   {
     type: "input",
@@ -61,25 +76,11 @@ const questions = [
     message: "How is testing performed?",
     default: "npm test"
   },
+  
   {
     type: "input",
-    name: "name",
-    message: "Please enter your full name.",
-  },
-  {
-    type: "input",
-    name: "email",
-    message: "please enter your email address.",
-  },
-  {
-    type: "input",
-    name: "github",
-    message: "What is your GutHub username?"
-  },
-  {
-    type: "input",
-    name: "credits",
-    message: "Please provide any acknowledgements or credits."
+    name: "acknowledgements",
+    message: "Please feel free to acknowledge any assistance or contrubution from any one if any"
   }
 ];
 
