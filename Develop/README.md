@@ -2,6 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # ReadMe-Generator
   ReadMe-Generator application helps a user generate a hustle free ReadMe through a simple CLI that provides prompts for a user to quickly answer questions about their application for their github projects.
+  
 **View deployed app at -** https://github.com/Bremah-mvp/ReadMe-Generator.git
 
 ![ReadMe-Generator screen shot](https://github.com/Bremah-mvp/ReadMe-Generator/blob/master/Develop/assets/node.png)
