@@ -7,7 +7,7 @@
 
 **Here is a link to the video of the application running:https://drive.google.com/file/d/1CODUtsCJIgIgF-qJCyUeulATKSHqSVoG/view
 
-![ReadMe-Generator screen shot](https://github.com/Bremah-mvp/ReadMe-Generator/blob/master/Develop/assets/node.png)
+![ReadMe-Generator screen shot](https://github.com/Bremah-mvp/ReadMe-Generator/blob/master/Develop/assets/node1.png)
 ## Table of Contents
 - [Installation](#Installation-instructions)
 - [Usage](#How-to-use-ReadMe-Generator)
